@@ -1,0 +1,134 @@
+
+body {
+    color: rgb(238, 238, 238);
+    text-shadow: 1px 1px 5px red;
+    font-family: 'Happy Monkey', cursive;
+    background: 400px red;
+    background-size: 400px;
+    
+}
+    
+#head1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    margin: 0px auto;
+    background-image: url(images/head.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 500px;
+    width: 1000px;
+    font-size: 30px;
+            
+}
+#head1:hover {
+    background-image: url(images/mind.gif);
+}
+#titlu2 {
+    height: 100px;
+    color: blue;
+    text-align: center;
+    margin: 0px -8px ;
+    background-color: yellow;
+    margin-bottom: 0px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+   
+}
+.activ {
+    text-align: center;
+    color: blue;
+    margin: 0px -8px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    height: 400px;
+    background-color: yellow;
+}
+
+
+.abc {
+    height: 200px;
+    width: 300px;
+    margin: 10px 20px;
+    background-image: url(images/visit1.jpg);
+    background-size: cover;  
+}
+#hv-hike:hover {
+    background-image: url(images/hik.gif);
+}
+.abcd {
+    height: 200px;
+    width: 300px;
+    margin: 10px 20px;
+    background-image: url(images/visit2.webp);
+    background-size: cover; 
+}
+#hv-raft:hover {
+    background-image: url(images/raf.gif);
+} 
+
+.abcde {
+    height: 200px;
+    width: 300px;
+    margin: 10px 20px;
+    background-image: url(images/visit3.jpg);
+    background-size: cover; 
+} 
+#hv-cave:hover {
+    background-image: url(images/cav.gif);
+}
+
+#titlu3 {
+    background-color: blue;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px -8px -8px -8px;
+}
+.carte {
+    border: 5px solid rgb(0, 115, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    background-color: rgb(0, 115, 255);
+}
+.vic {
+    background-image: url(images/bot.jpg);
+    background-size: cover;
+    width:200px;
+    height: 200px;
+    border: 1px solid rgb(0, 115, 255);
+    border-radius: 20%;
+}
+#hv-vic:hover {
+    background-image: url(images/deal.gif);
+}
+
+
+    
+    
+
+
+/*
+    background-color: rgb(250, 246, 8);
+    color: rgb(238, 238, 238);
+    text-shadow: 1px 1px 5px red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Happy Monkey', cursive;
+
+   /* .activitati1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
